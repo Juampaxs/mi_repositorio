@@ -1,0 +1,26 @@
+@each $habitacion in superior, suite, familiar {
+    .#{$habitacion} { 
+          background-image:  
+           url('../../multimedia/#{$habitacion}.jpg');
+     }
+ }
+
+.habitaciones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    img {
+        height: 300px;
+        width: 500px;
+    }
+
+    :hover {
+        transform: scale(2, 2);
+    }
+
+    &__video {
+        height: 300px;
+        width: 500px;
+    }
+}

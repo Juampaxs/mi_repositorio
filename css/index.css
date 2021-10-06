@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+/* NORMALIZE */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  /* etiqueta raíz */
+  font-size: 62.5%; }
+
+/* VARIABLES */
+/* COLORS */
+/* SPACINGS*/
+/* GLOBALS */
+body {
+  font-family: 'Merienda One'; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.section {
+  padding-inline-start: 100px; }
+  .section__article {
+    font-size: 20px; }
+
+/* PARTIALS */
+header {
+  height: 300px;
+  background-color: black; }
+  header img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px; }
+
+.navbar__menu {
+  text-decoration: none;
+  display: flex;
+  padding: 0 6.25rem;
+  color: black;
+  justify-content: center;
+  font-size: 16px;
+  gap: 15px;
+  letter-spacing: 5px; }
+  .navbar__menu__item {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    transition: all 10s; }
+    .navbar__menu__item__link {
+      text-decoration: none;
+      color: coral;
+      font-size: 30px; }
+    .navbar__menu__item__link:hover {
+      color: white;
+      position: relative;
+      background-color: #881616;
+      border-style: double;
+      width: 40%; }
+  .navbar__menu__item:hover ul {
+    display: block;
+    background-color: #881616; }
+
+.navbar__submenu {
+  position: absolute;
+  display: none;
+  width: 100%;
+  text-align: center;
+  border-style: double; }
+  .navbar__submenu__item {
+    display: block; }
+    .navbar__submenu__item__link {
+      text-decoration: none;
+      color: coral;
+      font-size: 30px; }
+    .navbar__submenu__item__link:hover {
+      color: white;
+      position: relative;
+      background-color: #881616;
+      border-style: double;
+      width: 40%; }
+
+main {
+  background-color: cornsilk;
+  min-height: 700px; }
+  main h2 {
+    color: #F09B07;
+    font-family: 'Merienda One', sans-serif, cursive; }
+
+.aside {
+  background-color: darkgrey; }
+
+.aside__item {
+  font-style: italic;
+  font-size: medium; }
+
+footer {
+  height: 100px;
+  background-image: linear-gradient(to left, crimson, blue); }
+
+.redes {
+  background-color: darkorange; }
+
+.redes__item {
+  font-size: 30px; }
+
+/* PAGES */
+.titulo {
+  color: #F09B07;
+  font-family: 'Merienda One', sans-serif, cursive;
+  text-align: center;
+  height: 100px; }
+
+.titulo:hover {
+  transition: 3s;
+  font-size: 3rem; }
+
+.form {
+  font-style: italic; }
+
+.form__data {
+  font-family: 'Merienda';
+  font-size: 20px; }
+
+.superior {
+  background-image: url("../../multimedia/superior.jpg"); }
+
+.suite {
+  background-image: url("../../multimedia/suite.jpg"); }
+
+.familiar {
+  background-image: url("../../multimedia/familiar.jpg"); }
+
+.habitaciones {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .habitaciones img {
+    height: 300px;
+    width: 500px; }
+  .habitaciones :hover {
+    transform: scale(2, 2); }
+  .habitaciones__video {
+    height: 300px;
+    width: 500px; }
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px; }
+  .article img {
+    width: 250px;
+    height: 200px; }
+  .article__item {
+    background-color: burlywood; }
+    .article__item--align {
+      text-align: center; }
+
+.table {
+  color: #F09B07;
+  font-family: 'Merienda One', sans-serif, cursive;
+  text-align: justify; }
+  .table__th {
+    text-transform: uppercase;
+    padding-inline-end: 50px;
+    padding-inline-start: 50px; }
+  .table__tr--size {
+    padding-inline-end: 50px;
+    padding-inline-start: 50px; }
+
+.imagen {
+  size: 100px; }
+
+.imagen__item .imagen__item :hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite; }

@@ -1,0 +1,11 @@
+.imagen {
+ size: 100px;
+}
+
+.imagen__item {
+    .imagen__item :hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+    
+}

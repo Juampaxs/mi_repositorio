@@ -1,0 +1,16 @@
+.table {
+    color: #F09B07;
+    font-family: 'Merienda One', sans-serif, cursive;
+    text-align: justify;
+
+    &__th {
+        text-transform: uppercase;
+        padding-inline-end: 50px;
+        padding-inline-start: 50px;
+    }
+
+    &__tr--size {
+        padding-inline-end: 50px;
+        padding-inline-start: 50px;
+    }
+}

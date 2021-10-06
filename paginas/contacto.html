@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../multimedia/logo.png" alt="Logo-marca">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">
+                    <a class="navbar__menu__item__link" href="../index.html">Inicio</a>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="navbar__menu__item__link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="navbar__menu__item__link" href="reserva.html">Reserva online</a>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="navbar__menu__item__link" href="">Galería</a>
+                    <ul class="navbar__submenu">
+                        <li class="navbar__submenu_item">
+                            <a class="navbar__submenu__item__link" href="habitaciones.html">Habitaciones</a>
+                        </li>
+                        <li class="navbar__submenu_item">
+                            <a class="navbar__submenu__item__link" href="piscina.html">Piscina</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="navbar__menu__item__link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <form class="form">
+            <div class="form__data">
+                <label for="nombre">Tu nombre (requerido):</label>
+                <input type="text" name="nombre">
+                <br>
+                <br>
+                <label for="email">Tu e-mail (requerido):</label>
+                <input type="email" name="email">
+                <br>
+                <br>
+                <label for="cantidad">Cantidad:</label>
+                <select name="cantidad">
+                    <option name= "1">1 persona</option>
+                    <option name= "2">2 personas</option>
+                    <option name= "3">3 personas</option>
+                    <option name= "4">4 personas</option>
+                </select>
+                <br>
+                <br>
+                <div id="terminos"> He leído y acepto la política de privacidad del Hotel Oasis.
+                <input type="checkbox" name="acepta" value="1"></div>
+                <br>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto">
+                <br>
+                <br>
+
+                <label for="mensaje">Tu mensaje:</label>
+                <br><br>
+                <textarea name="consulta" rows="10" cols="50">Ingrese su mensaje</textarea>
+                <br><br>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar datos">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+
+</html>
