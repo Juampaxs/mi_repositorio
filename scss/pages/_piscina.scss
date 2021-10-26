@@ -1,0 +1,14 @@
+.imagen {
+ size: 100px;
+}
+
+.imagen__item {
+    min-height: 400px;
+    min-width: 600px;
+    object-fit: contain;
+    .imagen__item :hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+    
+}

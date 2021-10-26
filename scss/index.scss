@@ -1,0 +1,25 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* NORMALIZE */
+@import "./utils/normalize";
+
+/* VARIABLES */
+@import "./utils/variables";
+
+/* GLOBALS */
+@import "./utils/globals";
+
+/* PARTIALS */
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/footer";
+
+/* PAGES */
+@import "./pages/home";
+@import "./pages/contacto";
+@import "./pages/habitaciones";
+@import "./pages/reserva";
+@import "./pages/servicios";
+@import "./pages/piscina";
